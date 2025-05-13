@@ -16,16 +16,16 @@ playersCounter=x
 round=1                               
 players=x
 g=0
-beansList=list(range(0,x))         #lista me ta fasolia pou exei o kathe paikths
+beansList=list(range(0,x))         
 for j in range(0,x,1):
-    beansList[j]=y-1               #o kathe paikths sthn arxh tou paixnidiou exei 1 fasoli ligotero epeidh ebale ena sto kentro
+    beansList[j]=y-1               
 rp=randint(1,x)
 print('round ', round,' begins: ',lst[2])
 print('current state:')
 print('pot:', pot)
 for i in range(0,x,1):
     print('player' , i+1 ,'\'s budget:' ,beansList[i])
-while playersCounter>1:                            #oi paiktes parapanw apo enan
+while playersCounter>1:                            
     spin=choice(lst)        
     round+=1
     while pot>0 and g!=-17:
@@ -35,7 +35,7 @@ while playersCounter>1:                            #oi paiktes parapanw apo enan
                 rp = 1
             continue
         if spin==lst[0]:
-            if beansList[rp-1]==0:          #rp-1 epidh to metrhma stis theseis ksekiaei apo 0 enw oi paiktes ksekinan apo to 1
+            if beansList[rp-1]==0:          
                 beansList[rp-1]=-1
                 playersCounter -= 1
             else:
