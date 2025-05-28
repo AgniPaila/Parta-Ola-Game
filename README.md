@@ -1,4 +1,4 @@
-# 🎲 Parta Ola – (Python)
+# 🎲 Parta Ola 
 Parta Ola is a game of chance written in Python. It simulates a spinning wheel that determines each player's action. The last player remaining wins the game!
 
 ## 🕹️ Game Overview
@@ -49,4 +49,4 @@ Eliminated players do not return in later rounds
 The last player remaining is declared the winner!
 
 ## 📘 Course Info
-Course: Εισαγωγή στον Προγραμματισμό (Introduction to Programming)
+Course: Εισαγωγή στον Προγραμματισμό (Introduction to Programming - 1st year)
